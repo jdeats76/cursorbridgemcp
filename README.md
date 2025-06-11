@@ -10,6 +10,7 @@ The power of this setup lies in its flexibility. Beyond Google Docs, the same pa
 You'll need to create a mcp.json file with the JSON code below. Path information formatted for MacOS 
 You'll need to adapt for Windows, replace with location of your code and your_user_name
 
+```
 mcp.json
 
 {
@@ -21,6 +22,7 @@ mcp.json
     }
   }
 }
+```
 
 on MacOS this file will go in /[your_user_name]/~/.cursor/mcp.json on windows it's in the user's profile \.cursor folder
 these are hidden folders on both OSs
