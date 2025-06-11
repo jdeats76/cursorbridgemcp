@@ -26,8 +26,7 @@ on MacOS this file will go in /[your_user_name]/~/.cursor/mcp.json on windows it
 these are hidden folders on both OSs
 
 # generating a credentials.json file - 
-# NOTE: you must do this!!! without credentials.json gdoc agent will have no way to 
-# authenticate with Google. 
+## NOTE: you must do this!!! without credentials.json gdoc agent will have no way to authenticate with Google. 
 
 1. If you do not have a Google Cloud Account you can create one for free
 https://cloud.google.com/gcp
