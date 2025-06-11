@@ -1,0 +1,11 @@
+python3 -m venv .venv
+.\\.venv\\Scripts\\Activate.ps1
+pip install -r requirements.txt
+
+$dir="$env:USERPROFILE\\.cursor"; New-Item -ItemType Directory -Force -Path $dir
+$mcp=@{"mcpServers"=@{"gdocs"=@{
+    command=(Resolve-Path .\\.venv\\Scripts\\python.exe).Path
+    args=@((Resolve-Path .\\mcpserver.py).Path)
+    type="command"
+}}}
+$mcp | ConvertTo-Json -Depth 5 | Out-File "$dir\\mcp.json" -Encoding ascii
