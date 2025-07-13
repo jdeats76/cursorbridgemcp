@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/jdeats76-cursorbridgemcp-badge.png)](https://mseep.ai/app/jdeats76-cursorbridgemcp)
+
 # cursorbridgemcp
 Leverage Cursor’s powerful new MCP feature with this lightweight Python FastMCP server with a Google Docs agent.
 You can easily add additioanl agents 
